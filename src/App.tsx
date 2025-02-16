@@ -64,7 +64,7 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center">
-        <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 overflow-hidden opacity-60">
           <div className="absolute w-[707px] h-[707px] left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 border-[37px] border-[#E40037] rounded-full blur-[40px] opacity-20 animate-pulse"></div>
           <div className="absolute w-[707px] h-[707px] left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 border-[37px] border-[#E40037] rounded-full"></div>
         </div>
@@ -74,8 +74,8 @@ function App() {
             <div>
               <h1 className="text-6xl font-bold mt-16 mb-4">
                John Ficher
-                <p className="block text-red-600/50 mt-2 text-7xl z-20">Front-end</p>
-                <p className="block text-red-600/50 mt-2 ml-10 text-7xl z-20"> Developer</p>
+                <p className="block text-red-600/80 mt-2 text-7xl z-20">Front-end</p>
+                <p className="block text-red-600/80 mt-2 ml-10 text-7xl z-20"> Developer</p>
               </h1>
               <p className="text-xl text-gray-400 mb-8 mt-4">
                 Crafting exceptional digital experiences with Next.js and React
